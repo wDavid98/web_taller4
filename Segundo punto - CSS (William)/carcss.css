@@ -1,0 +1,94 @@
+.abs-center {
+    display: flex;   
+    justify-content: center;
+    min-height: 100vh;    
+    margin: .5em;    
+    padding: .5em;
+    text-align: center;
+  }
+
+body{
+    background-color: dodgerblue;    
+    margin: 0;
+   
+}
+
+.form-container{
+    padding: 1em;
+    border-radius: .5em;
+    background-color: white;    
+}
+
+.container-row{
+    padding: .5em 0;     
+    display: flex;  
+}
+
+.input-text{
+    padding: .25em;
+    border-radius: .25em;
+    border: 1px solid rgba(0, 0, 0, .5);
+    margin: .25em;
+    text-align: center;
+    display: inline-flex;
+}
+
+.input-area{
+    display: inline-flex;
+    width: 100%;
+}
+
+.input-area-dos{
+    columns: 30;
+    border-radius: .25em;
+    border: 1px solid rgba(0, 0, 0, .5);
+    margin: .25em;    
+    width: 200%;
+    display: flex;
+    
+}
+
+.input-select-coin{
+    padding: .25em;
+    border-radius: .2em;
+    border: 1px solid rgba(0, 0, 0, .5);
+    margin: .25em;
+    text-align: center; 
+    width: 200%;    
+    
+}
+
+.input-select{
+    padding: .25em;
+    border-radius: .25em;
+    border: 1px solid rgba(0, 0, 0, .5);
+    margin: .25em;
+    text-align: center; 
+    width: 100%; 
+       
+}
+
+.title{
+    font-weight: bold italic;
+    font-size: 1em;
+    color: #6494ed;
+    text-align: center;
+}
+
+.btn{
+    padding: .5em;
+    border-radius: .25em;
+    background-color: #6494ed;    
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgba(0, 0, 0, .5);
+    transition: .5s all;
+    margin-top: 2%;  
+    margin-bottom: 1%;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+    

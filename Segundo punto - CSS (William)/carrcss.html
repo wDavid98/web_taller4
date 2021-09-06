@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carcss.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="abs-center">        
+            <form action="#" class="form-container">
+                <div class="title">
+                <h1>Registro de Vehículo</h1>
+                <br>
+                </div>
+                <div class="container-row">
+                    <div>      
+                        <div>                  
+                        <label for="model">Modelo</label>
+                        </div>
+                        <div>
+                        <input class="input-text" type="text" id="model" placeholder="Spark">
+                        </div>
+                    </div>
+                    <div>
+                        <div><label for="yearmodel">Año</label></div>
+                        <div>
+                        <input class="input-text" type="datetime" id="yearmodel" placeholder="2021"> 
+                        </div>
+                    </div>
+                    <div>
+                        <div><label for="yearmodel">Fecha de Publicación</label></div>
+                        <div><input  class="input-text" type="date" id="yearmodel" placeholder="2021"> </div>                        
+                    </div>
+                </div>
+
+                <div class="container-row" > 
+                    <div>                  
+                        <div><label for="box">Caja</div>
+                        <div><input  class="input-text" type="number"  placeholder="1" id="box"></div>
+                    </div> 
+                    <div>
+                        <div><label for="Motor">Motor</div>
+                        <div><input   class="input-text" type="text" id="Motor"></div>
+                    </div>      
+                    <div>
+                        <div><label for="type">Deportivo</label></div>       
+                        <div>               
+                            <select  class="input-select" style="width: 150%;" name="tipoSelect" id="type">
+                                <option value=""></option>
+                                <option value="Deportivo">Deportivo</option>
+                                <option value="Seguridad">Seguridad</option>
+                            </select>   
+                        </div>                                           
+                    </div>              
+                </div>
+
+
+                <div >
+                    <div><label for="details">detalles</label></div>
+                    <div><textarea name="detalles"  class="input-area" id="details"></textarea></div>  
+                </div>
+                <div class="container-row">
+                    <div>
+                        <div><label for="price" c>Precio</div>                        
+                        <div><span>$</span><input class="input-text" type="number" id="price" placeholder="20.000"> </div>                        
+                    </div>
+                    <div >
+                        <div><label for="divisa">Moneda</div>
+                        <div>
+                            <select class="input-select-coin" class="input-select" name="divisa" id="id_divisa">
+                                <option value=""></option>
+                                <option value="ColPesos">COP</option>
+                                <option value="Dolares">USD</option>                            
+                            </select>
+                        </div>                        
+                    </div>  
+                    <div>
+                        <div><label for="state">Estado</label></div>
+                        <div>
+                            <select class="input-select-coin" name="state" id="state">                            
+                                <option value="nuevo">Nuevo</option>
+                                <option value="usado">usado</option>
+                            </select>
+                        </div>
+                    </div> 
+                </div>
+            
+                               
+                
+
+                <div>
+                    <div>
+                        <div><label for="combustible">combustible</label></div>
+                        <div>
+                            <select class="input-select" name="combustible" id="combustible">                           
+                                <option value="Gasolina">Gasolina</option>
+                                <option value="ACPM">ACPM</option>
+                            </select>
+                        </div>
+                    </div>                    
+                    <div>
+                        <div><label for="brand">Marca</label></div>
+                        <div>
+                            <select class="input-select" name="brand" id="brand">
+                                <option value="Chevrolet">Chevrolet</option>
+                                <option value="Renault">Ford</option>
+                                <option value="Ford">Ford</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <div><label for="user">Usuario</label></div>
+                        <div>
+                            <select class="input-select" name="usuario" id="user">
+                                <option value="Juan">Juan</option>
+                                <option value="Pedor">Pedor</option>
+                            </select>
+                        </div>
+                    </div>                    
+                </div>
+
+                <div class="container-row">
+                    <div>
+                        <div><label for="ccpic1">CC PIC01</label></div>
+                        <div><textarea class="input-area-dos" name="ccpic1" id="ccpic1"></textarea></div>
+                    </div>
+                    <div>
+                        <div><label for="ccpic2">CC PIC02</label></div>
+                        <div><textarea  class="input-area-dos" name="ccpic2" id="ccpic2"></textarea></div>                        
+                    </div>
+                </div>
+                
+                <div class="container-row">
+                    <div>
+                        <div><label for="ccpic3">CC PIC03</label></div>
+                        <div><textarea class="input-area-dos" name="ccpic3" id="ccpic3"></textarea></div>
+                    </div>
+                    <div>
+                        <div><label for="ccpicd">CC PIC02</label></div>
+                        <div><textarea class="input-area-dos" name="ccpicd" id="ccpicd"></textarea></div>
+                    </div>
+                </div>
+                
+                <div class="container-row justify-center">
+                   <input type="submit" class="btn" value="Registrar">
+                </div>
+            </form>            
+        <div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
