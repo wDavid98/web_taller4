@@ -21,6 +21,7 @@ body{
 .container-row{
     padding: .5em 0;     
     display: flex;  
+    width: 100%;
 }
 
 .input-text{
@@ -33,18 +34,13 @@ body{
 }
 
 .input-area{
+    padding: .25em;
+    border-radius: .2em;
+    border: 1px solid rgba(0, 0, 0, .5);
     display: inline-flex;
     width: 100%;
-}
-
-.input-area-dos{
-    columns: 30;
-    border-radius: .25em;
-    border: 1px solid rgba(0, 0, 0, .5);
-    margin: .25em;    
-    width: 100%;
-    display: flex;
-    
+    resize: none;
+    content: none;
 }
 
 .input-select-coin{
@@ -53,8 +49,8 @@ body{
     border: 1px solid rgba(0, 0, 0, .5);
     margin: .25em;
     text-align: center; 
-    width: 100%;    
-    
+    width: 90%;   
+     
 }
 
 .input-select{
@@ -63,8 +59,7 @@ body{
     border: 1px solid rgba(0, 0, 0, .5);
     margin: .25em;
     text-align: center; 
-    width: 100%; 
-       
+    width: 90%; 
 }
 
 .title{
@@ -88,6 +83,11 @@ body{
 
 .justify-center{
     justify-content: center;
+}
+
+label{
+    font-size: 12px;
+    font-weight: bold;
 }
 
     
