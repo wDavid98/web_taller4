@@ -1,7 +1,7 @@
 .abs-center {
     display: flex;   
     justify-content: center;
-    min-height: 100vh;    
+    min-height: 95vh;    
     margin: .5em;    
     padding: .5em;
     text-align: center;
